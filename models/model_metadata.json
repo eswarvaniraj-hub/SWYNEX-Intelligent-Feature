@@ -1,0 +1,22 @@
+{
+    "model_type": "TF-IDF + Logistic Regression",
+    "random_state": 42,
+    "total_training_samples": 100,
+    "class_distribution": {
+        "Technology": 25,
+        "Education": 25,
+        "Sports": 25,
+        "Health": 25
+    },
+    "classes": [
+        "Education",
+        "Health",
+        "Sports",
+        "Technology"
+    ],
+    "cv_accuracy_mean": 0.8800000000000001,
+    "cv_accuracy_std": 0.039999999999999994,
+    "vocabulary_size": 2043,
+    "training_time_seconds": 0.0151,
+    "timestamp": "2026-10-09 19:54:29"
+}
